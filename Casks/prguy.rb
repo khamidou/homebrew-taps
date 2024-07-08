@@ -6,4 +6,11 @@ cask "prguy" do
   name "PRGuy"
   desc "Watch your PRs like a hawk"
   homepage "https://github.com/khamidou/prguy"
+
+  binary "prguy"
+
+  postflight do
+    set_permissions "#{staged_path}/prguy", "0755"
+  end
+
 end
