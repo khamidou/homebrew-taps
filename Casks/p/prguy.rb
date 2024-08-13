@@ -1,6 +1,6 @@
 cask "prguy" do
-  version "0.92"
-  sha256 "cb287d20fb1706ddc355dd09d492f41d00cc3f9c81047f4d6603fbc6cf1305b7"
+  version "0.93"
+  sha256 "8e3b130ced2619a0108c1ea73ba934e16eaa88d70677ce8e62f7901b6333f12d"
 
   url "https://github.com/khamidou/prguy/releases/download/#{version}/prguy.zip"
   name "PRGuy"
